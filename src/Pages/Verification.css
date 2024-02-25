@@ -1,0 +1,98 @@
+.container {
+/* display: flex; */
+align-items: center;
+justify-content: center;
+margin: 20px;
+align-items: center;
+}
+
+
+.container h2 {
+font-family: Arial;
+font-size: 24px;
+color: #333;
+margin: 10px;
+}
+
+
+.container p {
+font-family: Arial;
+font-size: 18px;
+color: #333;
+margin: 10px;
+}
+
+
+.pass {
+align-items: center;
+justify-content: space-between;
+/* width: 200px;
+height: 100px; */
+}
+
+
+.pass input {
+width: 40px;
+height: 40px;
+border: 2px solid #ccc;
+border-radius: 5px;
+font-family: Arial;
+font-size: 20px;
+text-align: center;
+outline: none;
+}
+
+
+.pass input:focus {
+border-color: #66ccff;
+}
+
+
+.pass input:hover {
+background-color: #e9eea4;
+}
+
+.pass input {
+    background-color: #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 2px;
+}
+
+
+.veryfy {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .veryfy:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  .clear {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .clear:hover {
+    background-color: #d32f2f; /* Darker red */
+  }
